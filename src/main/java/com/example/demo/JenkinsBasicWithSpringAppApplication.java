@@ -20,6 +20,7 @@ public class JenkinsBasicWithSpringAppApplication {
 	public static void main(String[] args) {
 		
 		logger.info("Application executed ...bhai");
+		logger.info("Application executed ...bhai second time ");
 		SpringApplication.run(JenkinsBasicWithSpringAppApplication.class, args);
 		
 	}
