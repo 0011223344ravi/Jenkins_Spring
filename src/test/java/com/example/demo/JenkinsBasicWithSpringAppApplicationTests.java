@@ -14,6 +14,9 @@ class JenkinsBasicWithSpringAppApplicationTests {
 	@Test
 	public void contextLoads() {
 		logger.info("test case executing ");
+		logger.info("test case executing for second time  ");
+		
+		
 		assertEquals(true, true);
 	}
 
