@@ -15,7 +15,7 @@ public class JenkinsBasicWithSpringAppApplication {
 	public  static final Logger logger = LoggerFactory.getLogger(JenkinsBasicWithSpringAppApplication.class);
 
 	@PostConstruct
-	public void intt() {
+	public void inttt() {
 		logger.info("Application started ...bhai");
 		
 	}
